@@ -1,0 +1,47 @@
+{
+  "agents": {
+    "dog": "dog",
+    "dog_breeds": {
+      "DACHSHUNDS": "Dachshunds",
+      "GOLDEN_RETRIEVERS": "GoldenRetrievers",
+      "ROTTWEILERS": "Rottweilers"
+    },
+    "human": "human",
+    "human_types": {
+      "DOG_CATCHERS": "DogCatchers",
+      "WALKERS": "Walkers"
+    }
+  },
+
+  "board": {
+    "size": {
+      "x": "x",
+      "y": "y"
+    },
+    "resources": {
+      "bones": "bones",
+      "poisons": "poisons"
+    }
+  },
+
+  "files_paths": {
+    "agents_creation": {
+      "dogs_creation": {
+        "colours": {
+          "DACHSHUND": "src/main/resources/agentsCreation/dogsCreation/colours/DachshundColour",
+          "GOLDEN_RETRIEVER": "src/main/resources/agentsCreation/dogsCreation/colours/GoldenRetrieverColour",
+          "ROTTWEILER": "src/main/resources/agentsCreation/dogsCreation/colours/RottweilerColour"
+        },
+        "names": {
+          "NAMES": "src/main/resources/agentsCreation/dogsCreation/names/DogsNames"
+        }
+      },
+      "humans_creation": {
+        "names": {
+          "NAMES": "src/main/resources/agentsCreation/humansCreation/names/HumansNames",
+          "SURNAMES": "src/main/resources/agentsCreation/humansCreation/names/HumansSurnames"
+        }
+      }
+    }
+  }
+}
